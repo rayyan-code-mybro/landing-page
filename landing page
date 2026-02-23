@@ -1,0 +1,173 @@
+[Untitled-1.html](https://github.com/user-attachments/files/25483336/Untitled-1.html)
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Perpustakaan Digital</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            background-color: #f1f5f9;
+        }
+
+        header {
+            background: #0f172a;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 22px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: 500;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #2563eb, #1e3a8a);
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            background: white;
+            color: #1e3a8a;
+            padding: 12px 25px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .about {
+            padding: 60px 8%;
+            text-align: center;
+        }
+
+        .about h2 {
+            margin-bottom: 20px;
+            color: #1e293b;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 8%;
+            background: white;
+        }
+
+        .stat-box {
+            text-align: center;
+        }
+
+        .stat-box h3 {
+            font-size: 32px;
+            color: #2563eb;
+        }
+
+        .features {
+            padding: 60px 8%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .feature {
+            background: white;
+            padding: 25px;
+            width: 30%;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+
+        .feature h3 {
+            margin-bottom: 10px;
+            color: #1e3a8a;
+        }
+
+        footer {
+            background: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        @media(max-width: 768px){
+            .stats, .features {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .feature {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+
+<section class="hero">
+    <h2>Perpustakaan Digital</h2>
+    <p>Laporan tentang perpustakaan digital</p>>
+</section>
+
+
+<section class="stats">
+    <div class="stat-box">
+        <h3>100</h3>
+        <p>Total Buku</p>
+    </div>
+  
+    <div class="stat-box">
+        <h3>33</h3>
+        <p>Total Peminjaman</p>
+    </div>
+</section>
+
+<section class="features">
+    <div class="feature">
+        <h3>Total buku</h3>
+        <p>100</p>
+    </div>
+    <div class="feature">
+        <h3>Stok Tersisa</h3>
+        <p>63</p>
+    </div>
+    <div class="feature">
+        <h3>Genre Tepopuler</h3>
+        <p>Tere Liye</p>
+    </div>
+</section>
+
+<footer>
+    <p>Perpustakaan Digital</p>
+</footer>
+
+</body>
+</html>
